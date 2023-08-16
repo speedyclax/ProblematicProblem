@@ -23,7 +23,11 @@ namespace ProblematicProblem
             }
             else if (contResponse == "no")
             {
-                cont = false;
+                Console.WriteLine();
+                Console.WriteLine("Thank you for your time.");
+                Console.WriteLine();
+                Console.WriteLine("Goodbye!");
+                Environment.Exit(0);
             }
 
             Console.WriteLine();
